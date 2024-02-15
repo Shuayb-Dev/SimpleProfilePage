@@ -1,0 +1,82 @@
+body{
+    width:1080px;
+    height:1440px;
+    background-color:#141414;
+}
+
+.container{
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding:100px;
+    height:600px;
+    background-color: #1F1F1F;
+}
+
+.avatarImgContainer{
+    position: relative;
+    bottom:50px;
+    left:30%;
+}
+
+.avatarImgContainer img{
+    height:120px;
+    width:120px;
+    border-radius:50%;
+    vertical-align: middle;
+}
+
+.userInformation h2{
+    font-family: "Inter", sans-serif;
+    position: relative;
+    color:hsl(0, 0%, 100%);
+    left:20%;
+    bottom:30px;
+}
+
+.userInformation h3{
+    color:hsl(75, 94%, 57%);
+    font-family: "Inter", sans-serif;
+    position: relative;
+    left:10%;
+    bottom:30px;
+}
+
+.userInformation p{
+    font-family: "Inter", sans-serif;
+    position: relative;
+    color:hsl(0, 0%, 100%);
+    left:3%;
+    bottom:40px;
+}
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: column;
+    width:200px;
+    margin:0px;
+}
+
+.buttonsContainer button{
+    position: relative;
+    right:30%;
+    margin:15px;
+    height:50px;
+    width:380px;
+    background-color: hsl(0, 0%, 20%);
+    color:white;
+    font-family: "Inter", sans-serif;
+    font-size: large;
+    font-weight:800;
+    border-radius: 10px;
+    border-style: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+.buttonsContainer button:hover{
+    background-color:hsl(75, 94%, 57%);
+    color:black;
+}
+
